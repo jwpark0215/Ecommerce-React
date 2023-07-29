@@ -5,9 +5,6 @@ import {books} from '../data.js'
 const Featured = () => {
     console.log(books)
     console.log(books.filter(book => book.rating === 5).slice(0,4));
-    function getFiveStarBooks(){
-        console.log(books.filter(book => book.rating === 5))
-    }
     return(
         <section id="features">
             <div className="container">
